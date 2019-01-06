@@ -4,6 +4,7 @@ backend:
 
 media_folder: source/images
 public_folder: /images
+publish_mode: editorial_workflow
 
 # A list of collections the CMS should be able to edit
 collections:
@@ -14,6 +15,8 @@ collections:
     folder: "source/_posts" # The path to the folder where the documents are stored
     sort: "date:desc"
     create: true # Allow users to create new documents in this collection
+    editor:
+      preview: false
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", required: false}
