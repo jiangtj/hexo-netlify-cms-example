@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -82,3 +82,12 @@ deploy:
 
 netlify_cms:
   config_file: netlify.yaml
+
+theme_config:
+  menu:
+    home: / || home
+    archives: /archives/ || archive
+    test-a1: 
+      default: /test-a1/ || flag
+      test-b1: /test-b1/ || flag
+    test-a2: /test-a2/ || flag
