@@ -6,6 +6,8 @@ media_folder: source/images
 public_folder: /images
 publish_mode: editorial_workflow
 
+auto_pages: true
+
 # A list of collections the CMS should be able to edit
 collections:
   # Used in routes, ie.: /admin/collections/:slug/edit
