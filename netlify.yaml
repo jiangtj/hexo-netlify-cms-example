@@ -17,6 +17,10 @@ pages:
     editor:
       preview: true
     # fields: 
+# through hexo config over fields
+over_format: true
+scripts:
+  - js/cms/youtube.js
 
 # A list of collections the CMS should be able to edit
 collections:
