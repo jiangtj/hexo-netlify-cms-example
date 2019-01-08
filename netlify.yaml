@@ -6,7 +6,17 @@ media_folder: source/images
 public_folder: /images
 publish_mode: editorial_workflow
 
-auto_pages: true
+# pages auto generate
+pages: 
+  enabled: true
+  # over page collection config
+  # if fields not set, would use posts fields config
+  config:
+    label: "Page"
+    delete: false
+    editor:
+      preview: true
+    # fields: 
 
 # A list of collections the CMS should be able to edit
 collections:
