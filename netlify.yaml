@@ -21,6 +21,7 @@ pages:
 over_format: true
 scripts:
   - js/cms/youtube.js
+  - js/cms/img.js
 
 # A list of collections the CMS should be able to edit
 collections:
