@@ -92,12 +92,12 @@ CMS.registerEditorComponent({
   toPreview: function (obj) {
     let href = window.location.href.split('?')[0].split('#')[0];
     console.log(href);
-    let root = href.substring(0,href.length-6);
+    let root = href.substring(0,href.length-7);
     console.log(root);
     if (!obj.path) {
       return `Please choose image!!`;
     }
-    let src = obj.path.indexOf('http')==0?obj.path:(root+obj.path).replace(/\/{2,}/g, '/');
+    let src = obj.path.indexOf('http')==0?obj.path:root+obj.path.replace(/\/{2,}/g, '/');
     return `<img src="${src}" width="${obj.width}" height="${obj.height}" title="${obj.title}" alt="${obj.alt}"/>`;
   }
 });
