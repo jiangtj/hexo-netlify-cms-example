@@ -91,9 +91,7 @@ CMS.registerEditorComponent({
   // (component gives better render performance)
   toPreview: function (obj) {
     let href = window.location.href.split('?')[0].split('#')[0];
-    console.log(href);
     let root = href.substring(0,href.length-7);
-    console.log(root);
     if (!obj.path) {
       return `Please choose image!!`;
     }
