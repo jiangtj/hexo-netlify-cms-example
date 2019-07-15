@@ -74,12 +74,17 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: cake
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+search:
+  path: search.xml
+  field: post
+  content: true
 
 netlify_cms:
   config_file: netlify.yaml
@@ -92,3 +97,8 @@ theme_config:
       default: /test-a1/ || flag
       test-b1: /test-b1/ || flag
     test-a2: /test-a2/ || flag
+  local_search:
+    enable: true
+    trigger: auto
+    top_n_per_article: 1
+    unescape: false
