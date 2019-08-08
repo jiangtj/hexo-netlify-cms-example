@@ -909,10 +909,10 @@ hexo-log@^0.2.0:
     chalk "^1.1.1"
     hexo-bunyan "^1.0.0"
 
-hexo-netlify-cms@^1.0.0-beta2:
-  version "1.0.0-beta2"
-  resolved "https://registry.npmjs.org/hexo-netlify-cms/-/hexo-netlify-cms-1.0.0-beta2.tgz#1a1566f8696a1dbd3443c179dfb3facca25d460c"
-  integrity sha512-ZgaRg1Ll+g8fw1AHxrYzlQZlXxEAH/TIIkCIkbfxfChAITWB4VTqZzd1HU5P5OvMOHjPkYcRTcoB88D2ikkk7w==
+hexo-netlify-cms@^1.0.0-beta3:
+  version "1.0.0-beta3"
+  resolved "https://registry.yarnpkg.com/hexo-netlify-cms/-/hexo-netlify-cms-1.0.0-beta3.tgz#8a9b791d98605ea75b6e2bd99dd56cf245fbdf4c"
+  integrity sha512-JDju9KXe5Kvhp9aDqNPEcXN8sZh5lJYK519ji1hvxlcFkqdYcn6bE0VfTrXP3wBkigeW+Gm64cAQT8cq9LBGZw==
   dependencies:
     js-yaml "^3.12.1"
     lodash "^4.17.15"
