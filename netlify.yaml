@@ -6,7 +6,7 @@ scripts:
   - js/cms/img.js
 
 global_fields:
-  default: &ref_default
+  default:
     - {label: "Banner", name: "banner", widget: "image", required: false}
     - {label: "Title", name: "title", widget: "string"}
     - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", dateFormat: "YYYY-MM-DD", timeFormat: "HH:mm:ss", required: false}
@@ -16,27 +16,3 @@ global_fields:
     - {label: "Body", name: "body", widget: "markdown", required: false}
     - {label: "Permalink", name: "permalink", widget: "string", required: false}
     - {label: "Comments", name: "comments", widget: "boolean", default: true, required: false}
-  post: *ref_default
-  page: *ref_default
-
-# A list of collections the CMS should be able to edit
-# collections:
-#   # Used in routes, ie.: /admin/collections/:slug/edit
-#   - name: "posts"
-#     # Used in the UI, ie.: "New Post"
-#     label: "Post"
-#     folder: "source/_posts" # The path to the folder where the documents are stored
-#     sort: "date:desc"
-#     create: true # Allow users to create new documents in this collection
-#     editor:
-#       preview: true
-#     fields: # The fields each document in this collection have
-#       - {label: "Banner", name: "banner", widget: "image", required: false}
-#       - {label: "Title", name: "title", widget: "string"}
-#       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", dateFormat: "YYYY-MM-DD", timeFormat: "HH:mm:ss", required: false}
-#       - {label: "Updeted Date", name: "updated", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", required: false}
-#       - {label: "Tags", name: "tags", widget: "list", required: false}
-#       - {label: "Categories", name: "categories", widget: "list", required: false}
-#       - {label: "Body", name: "body", widget: "markdown", required: false}
-#       - {label: "Permalink", name: "permalink", widget: "string", required: false}
-#       - {label: "Comments", name: "comments", widget: "boolean", default: true, required: false}
