@@ -1,0 +1,9 @@
+menu:
+  home: / || home
+  tags: /tags/ || tags
+  categories: /categories/ || th
+  archives: /archives/ || archive
+  test-a1: 
+    default: /test-a1/ || flag
+    test-b1: /test-b1/ || flag
+  test-a2: /test-a2/ || flag

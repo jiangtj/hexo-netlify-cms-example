@@ -831,6 +831,13 @@ hexo-bunyan@^1.0.0:
     mv "~2"
     safe-json-stringify "~1"
 
+hexo-cake-local-search@^2.4.0-5:
+  version "2.4.0-5"
+  resolved "https://registry.yarnpkg.com/hexo-cake-local-search/-/hexo-cake-local-search-2.4.0-5.tgz#dc6f96c798cc931ecb3c3aed6fa0ae8061201b7f"
+  integrity sha512-V8FK6a/G+ZMijYZpY6+8y56O4JITzd3yMrlzV3Nfz9Rhsf9VhIl0ClwCynYwFdMIZFDej2TPum2ga0wv+W367w==
+  dependencies:
+    js-yaml "^3.13.1"
+
 hexo-cli@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/hexo-cli/-/hexo-cli-1.1.0.tgz#496d238d4646dbfd1cf047b6dc5271bfb5cb798f"
@@ -1226,7 +1233,7 @@ isobject@^3.0.0, isobject@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
 
-js-yaml@^3.12.1, js-yaml@^3.6.1:
+js-yaml@^3.12.1, js-yaml@^3.13.1, js-yaml@^3.6.1:
   version "3.13.1"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
   integrity sha512-YfbcO7jXDdyj0DGxYVSlSeQNHbD7XPWvrVWeVUujrQEoZzWJIRrCPoyk6kL6IAjAG2IolMK4T0hNUe0HOUs5Jw==
