@@ -909,11 +909,13 @@ hexo-log@^0.2.0:
     chalk "^1.1.1"
     hexo-bunyan "^1.0.0"
 
-hexo-netlify-cms@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/hexo-netlify-cms/-/hexo-netlify-cms-0.1.1.tgz#9289cff16fd609f09f412b5d7db74d5915a54368"
+hexo-netlify-cms@^1.0.0-beta1:
+  version "1.0.0-beta1"
+  resolved "https://registry.npmjs.org/hexo-netlify-cms/-/hexo-netlify-cms-1.0.0-beta1.tgz#bef5d8c6d60266cb5a75d67d6a572eefc5ffd143"
+  integrity sha512-iXfNeVQOKOjUQO0udLnJxQMEsB09QWpF6K0hYnPpZOv8CMhznrA/mJHqLi19AQqJ2uVOMZpBdiS/Z7tn4w1lKg==
   dependencies:
     js-yaml "^3.12.1"
+    lodash "^4.17.15"
 
 hexo-pagination@0.0.2:
   version "0.0.2"
@@ -1314,6 +1316,11 @@ lodash.reject@^4.4.0:
 lodash.some@^4.4.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash.some/-/lodash.some-4.6.0.tgz#1bb9f314ef6b8baded13b549169b2a945eb68e4d"
+
+lodash@^4.17.15:
+  version "4.17.15"
+  resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
 lodash@^4.17.5, lodash@^4.2.1:
   version "4.17.14"
