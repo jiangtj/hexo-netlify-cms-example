@@ -1,9 +1,6 @@
 menu:
-  home: / || home
-  tags: /tags/ || tags
-  categories: /categories/ || th
-  archives: /archives/ || archive
-  test-a1: 
-    default: /test-a1/ || flag
-    test-b1: /test-b1/ || flag
-  test-a2: /test-a2/ || flag
+  home: / || fas fa-home
+  tags: /tags/ || fas fa-tags
+  categories: /categories/ || fas fa-th
+  archives: /archives/ || fas fa-archive
+  test-a2: /test-a2/ || fas fa-flag

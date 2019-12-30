@@ -86,4 +86,5 @@ search:
   content: true
 
 netlify_cms:
+  load_identity_widget: cake
   config_file: netlify.yaml
