@@ -796,6 +796,15 @@ hexo-cake-local-search@^4.4.1:
     hexo-util "^2.0.0"
     js-yaml "^3.13.1"
 
+hexo-cake-moon-menu@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/hexo-cake-moon-menu/-/hexo-cake-moon-menu-2.3.1.tgz#93f89ad216419211eea1e59625c22f972e22a9d0"
+  integrity sha512-9feHg4xyoGM04RCllpDdul1v8o3VKWn9wgjOKyJwCBmAB1PpDS24WytkyXZ2dM2voBMjJZPQVioQZbr504KRQQ==
+  dependencies:
+    ejs "^3.0.1"
+    hexo-extend-injector2 "^0.1.6"
+    hexo-util "^2.0.0"
+
 hexo-cake-utils@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/hexo-cake-utils/-/hexo-cake-utils-1.2.1.tgz#4c53c4d88a4be7dc5d966cb2c0082f71178ce0c8"
