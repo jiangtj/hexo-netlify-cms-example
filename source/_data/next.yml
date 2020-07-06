@@ -1,0 +1,6 @@
+menu:
+  home: / || fas fa-home
+  tags: /tags/ || fas fa-tags
+  categories: /categories/ || fas fa-th
+  archives: /archives/ || fas fa-archive
+  test-a2: /test-a2/ || fas fa-flag
