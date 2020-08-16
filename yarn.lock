@@ -881,13 +881,13 @@ hexo-renderer-marked@^3.0.0:
     hexo-util "^2.1.0"
     marked "^1.0.0"
 
-hexo-renderer-stylus@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/hexo-renderer-stylus/-/hexo-renderer-stylus-1.1.0.tgz#7a0a107bcf4b74fdf88f28da2db47b8dc9e208e5"
-  integrity sha512-aXfMuro2aQOvpM5pyPEModAPvqYi73VN4t37vGMQCbT0QTmw8YohEmUpO/G/1k6j88ong6344v+A0xrpUGQRnQ==
+hexo-renderer-stylus@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-renderer-stylus/-/hexo-renderer-stylus-2.0.0.tgz#fbc89a06d33f5eecd5b120759d4af247fde0315d"
+  integrity sha512-pn411nLqlmd9oq2oEPZ7AfYrCUmAVUxJ/QnE0fpoTFbLARVHOkJaKr6GlcWmKs2jdYIu8xa7yB7cEFo406k8DA==
   dependencies:
     nib "^1.1.2"
-    stylus "^0.54.5"
+    stylus "^0.54.8"
 
 hexo-server@^1.0.0:
   version "1.0.0"
@@ -1644,7 +1644,7 @@ stylus@0.54.5:
     sax "0.5.x"
     source-map "0.1.x"
 
-stylus@^0.54.5:
+stylus@^0.54.8:
   version "0.54.8"
   resolved "https://registry.yarnpkg.com/stylus/-/stylus-0.54.8.tgz#3da3e65966bc567a7b044bfe0eece653e099d147"
   integrity sha512-vr54Or4BZ7pJafo2mpf0ZcwA74rpuYCZbxrHBsH8kbcXOwSfvBFwsRfpGO5OD5fhG5HDCFW737PKaawI7OqEAg==
