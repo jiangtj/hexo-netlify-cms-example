@@ -1038,10 +1038,10 @@ hexo-log@^2.0.0:
   dependencies:
     chalk "^4.0.0"
 
-hexo-netlify-cms@^3.0.0-b1:
-  version "3.0.0-b1"
-  resolved "https://registry.yarnpkg.com/hexo-netlify-cms/-/hexo-netlify-cms-3.0.0-b1.tgz#140e846c773d1f3b890401440191d12e994db228"
-  integrity sha512-T4YBZLCWnl6Y/BPYaaI+0GJqcGxzBG4MyHKKyI9UGgrc2wT87Z0v/3g944zUtACx0cVNPBaXsRBCbQWIloOhUQ==
+hexo-netlify-cms@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-netlify-cms/-/hexo-netlify-cms-3.0.0.tgz#3e12f50422c5f0ad61cdbd2178cd3ff9769446a4"
+  integrity sha512-puJAjQO2CgXZKbWD/Y8emZ5qZwkGt8qMN5bZnDqJiR5KlNPrxI89lFF7zpKGgQrn3PFARuqaO6r88U1u8SQfYA==
   dependencies:
     ejs "^3.1.6"
     js-yaml "^4.1.0"
