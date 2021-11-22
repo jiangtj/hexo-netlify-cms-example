@@ -5,6 +5,6 @@ date: 2099-01-01 00:00:00
 updated: 2099-01-01 00:00:00
 comments: true
 ---
-netlify的大媒体服务在部分地区无法访问，现在移除了，但导致图片丢失，伤心。。。。
+- 你可以在这里进行任何测试，但是请确保你的内容符合Netlify、GitHub以及中国法律的要求
 
-Netlify's large media service is inaccessible in some areas, and it has now been removed, but it has resulted in the loss of pictures and sadness. . . .
+- You can do any test here, but please make sure your content meets the requirements of Netlify GitHub and Chinese laws
