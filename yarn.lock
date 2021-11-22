@@ -1038,14 +1038,14 @@ hexo-log@^2.0.0:
   dependencies:
     chalk "^4.0.0"
 
-hexo-netlify-cms@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/hexo-netlify-cms/-/hexo-netlify-cms-2.0.0.tgz#11fd1dd8a25957a646f055ff27f14a5effcd90d9"
-  integrity sha512-puVLzT0QNOoWolC0G2U9kJuZt5CL8i87j+BoLAyOogTQfgbHZQ3+KppJyXyoKPOQdi9xRejTR0R2q47ugaRtug==
+hexo-netlify-cms@^3.0.0-b1:
+  version "3.0.0-b1"
+  resolved "https://registry.yarnpkg.com/hexo-netlify-cms/-/hexo-netlify-cms-3.0.0-b1.tgz#140e846c773d1f3b890401440191d12e994db228"
+  integrity sha512-T4YBZLCWnl6Y/BPYaaI+0GJqcGxzBG4MyHKKyI9UGgrc2wT87Z0v/3g944zUtACx0cVNPBaXsRBCbQWIloOhUQ==
   dependencies:
-    ejs "^3.0.1"
-    js-yaml "^3.12.1"
-    lodash "^4.17.15"
+    ejs "^3.1.6"
+    js-yaml "^4.1.0"
+    lodash "^4.17.21"
 
 hexo-pagination@1.0.0:
   version "1.0.0"
@@ -1338,7 +1338,7 @@ jake@^10.6.1:
     filelist "^1.0.1"
     minimatch "^3.0.4"
 
-js-yaml@^3.12.1, js-yaml@^3.13.1:
+js-yaml@^3.13.1:
   version "3.14.1"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.14.1.tgz#dae812fdb3825fa306609a8717383c50c36a0537"
   integrity sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==
@@ -1346,7 +1346,7 @@ js-yaml@^3.12.1, js-yaml@^3.13.1:
     argparse "^1.0.7"
     esprima "^4.0.0"
 
-js-yaml@^4.0.0:
+js-yaml@^4.0.0, js-yaml@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-4.1.0.tgz#c1fb65f8f5017901cdd2c951864ba18458a10602"
   integrity sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==
