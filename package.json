@@ -6,7 +6,7 @@
     "version": "5.4.0"
   },
   "dependencies": {
-    "hexo": "^5.0.0",
+    "hexo": "^6.0.0",
     "hexo-cake-local-search": "^4.4.4",
     "hexo-cake-moon-menu": "^2.3.3",
     "hexo-generator-archive": "^1.0.0",
