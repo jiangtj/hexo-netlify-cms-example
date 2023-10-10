@@ -87,3 +87,9 @@ search:
 netlify_cms:
   load_identity_widget: cake
   config_file: netlify.yaml
+
+
+sitemap:
+    path: sitemap.xml
+    tag: false
+    category: false
