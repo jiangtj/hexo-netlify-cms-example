@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Greyfs
 subtitle:
-description:
+description: Nov
 keywords:
-author: John Doe
-language: en
+author: John dil
+language: id
 timezone:
 
 # URL
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: cake
+theme: shoka
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
