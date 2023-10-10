@@ -8,7 +8,7 @@ subtitle:
 description: Nov
 keywords:
 author: John dil
-language: id
+language: en
 timezone:
 
 # URL
@@ -39,7 +39,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace:
@@ -58,6 +58,15 @@ default_category: uncategorized
 category_map:
 tag_map:
 
+archive_generator:
+    enabled: true
+    per_page: 0
+    yearly: false
+    monthly: false
+    daily: false
+
+    
+
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
@@ -73,7 +82,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: shoka
+theme: particlex
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -85,5 +94,53 @@ search:
   content: true
 
 netlify_cms:
-  load_identity_widget: cake
+  load_identity_widget: particlex
   config_file: netlify.yaml
+
+  # ParticleX theme icon is adopts the Font Awesome 6
+# https://fontawesome.com
+
+# Main menu navigation
+menu:
+    Home:
+        name: house
+        theme: solid
+        link: /
+    About:
+        name: id-card
+        theme: solid
+        link: /about
+    Archives:
+        name: box-archive
+        theme: solid
+        link: /archives
+    Categories:
+        name: bookmark
+        theme: solid
+        link: /categories
+    Tags:
+        name: tags
+        theme: solid
+        link: /tags
+
+        # Side info card
+card:
+    enable: true
+    description: |
+        Description
+        ...
+    iconLinks:
+    friendLinks:
+        Argvchs: https://argvchs.github.io
+
+# Footer info
+footer:
+    since: 2022
+    # Customize the server domain name ICP
+    ICP:
+        enable: false
+        code:
+        link:
+
+        
+        
